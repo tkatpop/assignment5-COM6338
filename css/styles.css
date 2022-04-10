@@ -141,7 +141,6 @@ table {
 #more,
 #button{
     margin:10px auto;
-    text-decoration: none;
     display:block;
     text-align: center;
     padding: 10px;
@@ -150,6 +149,17 @@ table {
     max-width: 100px;
     border: 1px solid #000000;
     box-shadow: 0 0 10px #777770;
+    font-family:Georgia, serif;
+}
+
+#button a{
+    text-decoration: none;
+    color:#000000;
+    font-family:Georgia, serif;
+}
+
+.assignment #plus{
+    text-align: center;
 }
 
 
