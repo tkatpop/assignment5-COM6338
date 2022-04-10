@@ -118,7 +118,7 @@ table {
 .assignment figure img{
     display:block;
     margin:0 auto;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     box-shadow: 0 0 10px #777770;
 }
 
@@ -150,18 +150,40 @@ table {
 
 /*Media Queries*/
 
-@media screen and (min-width: 320px) {
-    
-}
-
 @media screen and (min-width: 768px) {
 
     .assignment header img{
-        max-width: 200px;
+        max-width: 150px;
+    }
+
+    .assignment main{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .assignment article{
+        width:100%;
+        margin-top:30px;
+    }
+    .assignment main .synopsis{
+        max-width: 60%;
+        display:inline-block;
+        margin-top:0;
+    }
+
+    .sketch{
+        display: inline-block;
+        width: 30%;
     }
     
 }
 
 @media screen and (min-width: 992px) {
-    
+
+    .sketch img{
+        max-width:70%;
+    }
+    .sketch{
+        max-width: 100%;
+    }
+   
 }
