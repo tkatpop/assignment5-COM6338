@@ -143,6 +143,7 @@ table {
     margin:10px auto;
     display:block;
     text-align: center;
+    text-decoration: none;
     padding: 10px;
     background-color: #ffc0b4;
     color:#000000;
@@ -150,12 +151,12 @@ table {
     border: 1px solid #000000;
     box-shadow: 0 0 10px #777770;
     font-family:Georgia, serif;
+    font-size:1em;
 }
 
-#button a{
-    text-decoration: none;
-    color:#000000;
-    font-family:Georgia, serif;
+#more{
+    max-width: 200px;
+    padding: 10px 20px;
 }
 
 .assignment #plus{
